@@ -53,7 +53,7 @@ while True:
             print("Comuna no válida")
     while True:
         medidor=int(input("Medidor? "))
-        if medidor>0 and medidor<5000:
+        if medidor>0:
             break
         else:
             print("Valor inválido de consumo.")
